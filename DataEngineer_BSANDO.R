@@ -49,7 +49,7 @@ get_p<-function(model_id, app_id,app_version) {
     1,          1             ,-5.1626802,  "COEF"     , "intercept "       , ""    ,     ""           , 0,             0,
     1,          1             , 0.0007927,  "debt"     , "debt"       	     , "+"   ,     ""           , 0,             0,
     1,          1             , 0.3996028,  "sex"      , "sexmale"          ,"match",    "Male"        , 0,             0,
-    1,          1             , 0.8707857,  "family"   , "marriedTRUE"      ,"match",    "MARRIED"     , 0,             0,
+    1,          1             , -0.8707857,  "family"   , "marriedTRUE"      ,"match",    "MARRIED"     , 0,             0,
     1,          1             , 0.3482291,  "children" , "children"         , "+"   ,     ""           , 0,             0,
     1,          1             , 1.4557413,  "rent"     , "rentTRUE"         ,"match",    "Y"           , 0,             0,
     1,          1             , 0.4927653,  "overdue"  , "overdue_0"        ,"range",     ""           , 0,             1,
